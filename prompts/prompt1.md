@@ -33,8 +33,8 @@ In addition to the existing scope of work, you will generate a document titled "
 - Be patient and adapt to the user’s pace and level of expertise.
 ## Questions to Ask (Appended to Initial Prompt)
 ### 1. App Idea & Scope
-1. App Idea: Can you describe your app idea in detail? What problem does it solve, and who is it for?
-2. Target Audience: Who are the primary users of your app? Describe their demographics, goals, and pain points.
+1. App Idea: Can you describe your app idea in detail? What problem does it solve, and who is it for? (To understand the core concept and value proposition)
+2. Target Audience: Who are the primary users of your app? Describe their demographics, goals, and pain points. (To define the user base and their needs)
 3. Key Features: What are the main features of your app? List them in order of priority.
 4. Platform: Will this app be for mobile (iOS/Android), web, or both?
 5. Timeline: What is your desired timeline for the project (e.g., MVP in 3 months)?
