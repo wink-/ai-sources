@@ -103,58 +103,58 @@ In addition to the existing scope of work, you will generate a document titled "
 1. Error Handling: How should errors be handled during user flows (e.g., invalid login, failed API calls)?
 1. Edge Cases: Are there any edge cases to consider (e.g., offline mode, incomplete data)?
 ### 13. Third-Party Libraries
--Library Identification:
-    -Which third-party libraries do you plan to use for specific functionalities (e.g., payment processing, analytics, etc.)?
-    -If unsure, describe the functionalities you need, and I will suggest appropriate libraries.
--Requirements and Compatibility:
-    -Are there any specific requirements for the libraries (e.g., open-source, commercial, specific licenses)?
-    -How will these libraries integrate with the existing tech stack?
--Security and Compliance:
-    -Are there any security considerations or compliance requirements for the chosen libraries?
+- Library Identification:
+    - Which third-party libraries do you plan to use for specific functionalities (e.g., payment processing, analytics, etc.)?
+    - If unsure, describe the functionalities you need, and I will suggest appropriate libraries.
+- Requirements and Compatibility:
+    - Are there any specific requirements for the libraries (e.g., open-source, commercial, specific licenses)?
+    - How will these libraries integrate with the existing tech stack?
+- Security and Compliance:
+    - Are there any security considerations or compliance requirements for the chosen libraries?
 ## Document Descriptions
 ### 1. Product Requirements Document (PRD)
--Purpose: Defines the app’s purpose, features, and target audience.
--Contents:
-    -App overview (name, description, tagline).
-    -Target audience and user personas.
-    -Key features and prioritization.
-    -Success metrics (e.g., user acquisition, engagement).
-    -Assumptions and risks.
+- Purpose: Defines the app’s purpose, features, and target audience.
+- Contents:
+    - App overview (name, description, tagline).
+    - Target audience and user personas.
+    - Key features and prioritization.
+    - Success metrics (e.g., user acquisition, engagement).
+    - Assumptions and risks.
 ### 2. Frontend Documentation
--Purpose: Describes the frontend architecture, UI components, and state management.
--Contents:
-    -UI framework and library.
-    -Navigation structure.
-    -Styling approach.
-    -State management solution (local and global).
-    -Key components and their functionality.
+- Purpose: Describes the frontend architecture, UI components, and state management.
+- Contents:
+    - UI framework and library.
+    - Navigation structure.
+    - Styling approach.
+    - State management solution (local and global).
+    - Key components and their functionality.
 ### 3. Backend Documentation
--Purpose: Describes the backend architecture, API design, and database schema.
--Contents:
-    -Backend framework and language.
-    -Database schema and relationships.
-    -API endpoints and specifications.
-    -Authentication and authorization mechanisms.
-    -Third-party integrations.
+- Purpose: Describes the backend architecture, API design, and database schema.
+- Contents:
+    - Backend framework and language.
+    - Database schema and relationships.
+    - API endpoints and specifications.
+    - Authentication and authorization mechanisms.
+    - Third-party integrations.
 ### 4. User Flow Documentation
--Purpose: Defines the user flows as a Mermaid diagram, detailing the steps from onboarding to core feature usage, including interactions, error handling, and edge cases.
--Contents:
-    -Onboarding Flow:
-        -Steps for signing up and logging in.
-        -Screens and interactions (e.g., email/password input, social login buttons, multi-factor authentication).
-    -Core User Journey:
+- Purpose: Defines the user flows as a Mermaid diagram, detailing the steps from onboarding to core feature usage, including interactions, error handling, and edge cases.
+- Contents:
+    - Onboarding Flow:
+        - Steps for signing up and logging in.
+        - Screens and interactions (e.g., email/password input, social login buttons, multi-factor authentication).
+    - Core User Journey:
         -Step-by-step process for the primary user journey (e.g., sign up → set preferences → use core feature → view results).
         -Screens and interactions at each step (e.g., buttons, forms, dropdowns, modals).
-    -Error Handling:
+    - Error Handling:
         -How errors are displayed and resolved (e.g., invalid input, failed API calls, network issues).
-    -Edge Cases:
+    - Edge Cases:
         -Handling of edge cases (e.g., offline mode, incomplete data, expired sessions).
-    -Alternative Flows:
+    - Alternative Flows:
         -Guest mode, skip onboarding, or other alternative paths.
-    -User Permissions:
+    - User Permissions:
         -Different user roles and their permissions (e.g., admin vs. regular user).
-    -Notifications:
-        -Triggers and content for notifications (e.g., email, push).
+    - Notifications:
+        - Triggers and content for notifications (e.g., email, push).
 ##Final Output
 At the end of the interaction, the LLM will generate a structured folder with all the documents and plans, ready to be handed off to AI coding agents. Here’s an example folder structure:
 ```
