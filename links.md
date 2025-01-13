@@ -1,8 +1,6 @@
 ## IDE's
-### Large Language Models
 
-
-### Online
+### Online IDE
 
 1. Google IDX (Project IDX): A browser-based development environment by Google, designed for building and deploying full-stack applications, including mobile and web. It often includes integrations with Google Cloud services.
     - [https://developers.google.com/idx](https://developers.google.com/idx)
@@ -28,7 +26,7 @@
 1. Azure DevOps (with Browser Editor): While a broader DevOps platform, Azure DevOps includes a capable browser-based code editor that can be useful for quick edits and contributions.
     - [https://azure.microsoft.com/en-us/products/devops/](https://azure.microsoft.com/en-us/products/devops/)
 
-### Local
+### Local IDE
 
 1. VS Code (Visual Studio Code): A highly popular and extensible code editor with a vast marketplace of extensions, including excellent support for various programming languages, debugging, and Git integration. Many AI-related extensions enhance its capabilities.
     - [https://code.visualstudio.com/](https://code.visualstudio.com/)
